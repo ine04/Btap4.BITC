@@ -1,0 +1,306 @@
+
+body {
+    background-image: url(https://i.pinimg.com/originals/ae/5f/45/ae5f4530fc45074f9b347202171808ad.gif);
+    background-size: 20%;
+    background-repeat: repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.menu_header {
+    list-style: none;
+    display: flex; /* Sử dụng flexbox để đưa các phần tử li cùng hàng */
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    justify-content: center;
+    
+}
+
+.menu_header li {
+    margin-right: 20px; /* Khoảng cách giữa các phần tử li */
+}
+
+.menu_header li:last-child {
+    margin-right: 0; /* Loại bỏ khoảng cách của phần tử li cuối cùng */
+}
+
+.menu_header a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.logoMin{
+    position: static;
+    width: auto;
+    height: auto;
+    margin-top: 2%;
+    
+}
+
+.menu-container {
+    position: absolute;
+    background-color: #00483d;
+    opacity: 1; /* Độ trong suốt */
+    z-index: -1; /* Đặt vị trí ở phía sau*/
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.Menu1{
+    display: flex;
+    text-align: center;  
+    align-items: center; 
+    justify-content: center;
+    height: 100px;
+    margin: 60px 0px 5px;
+}
+#searchbar{
+    width: 40%;
+    height: 35px;
+    border-radius: 5px;
+
+}
+
+#listmenu{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    color: aliceblue;
+    background-color:  #00483d;
+    border-radius: 5px;
+    width: 90%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#listmenu li{
+    display: flex;
+    flex-direction: column;
+    line-height: 5px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.btnfind{
+    padding: 7px 10px;
+    background-color:  #00483d ;
+    border-radius: 19px;
+    margin-left: -37px;
+    box-shadow:rgb(137, 129, 129);
+}
+.btncheck{
+    padding: 15px 10px;
+    background-color: #00483d;
+    text-decoration: none;
+    border-radius: 10px;
+    color: aliceblue;
+    margin-left: 10px;
+}
+
+.btncheck i{
+    margin-right: 5px;
+}
+
+.sp_cart {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.Menu2{
+    display: flex;
+    justify-content: center;
+}
+
+.Menu2 i{
+    font-size: large ;
+}
+
+#Social{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 30px;
+  height: 150px;
+  padding: 5px;
+  border-radius: 20px;
+  justify-content: space-evenly;
+  box-shadow: 7px 5px 5px #696868;
+  position: fixed;
+  text-align: center;
+}
+
+#Social i{
+    font-size: 25px;
+    width: 30px;
+    
+}
+
+#pic{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.pic1 {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#button .btn1 {
+    display: inline-block; /* Để nút trở thành một khối inline có thể tùy chỉnh */
+    padding: 10px 20px; /* Khoảng cách nội dung */
+    border: none; /* Loại bỏ viền */
+    border-radius: 10px; /* Bo góc */
+    transition: background-color 0.3s, color 0.3s; /* Hiệu ứng khi hover */
+    background-color: #00483d;
+    color: #fff;
+    margin-left: 40px;
+    box-shadow: 7px 5px 5px #696868;
+}
+
+#button .btn2 {
+    display: inline-block; /* Để nút trở thành một khối inline có thể tùy chỉnh */
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 7px 5px 5px #696868;
+    margin-left: 10px;
+
+}
+
+
+
+#button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+#Ads{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+img{
+    width: 300px;
+    height: 170px;
+    margin-bottom: 30px;
+}
+
+.label1{
+    padding: 10px 50px;
+    border-radius: 5px;
+    color: #fff;
+    background-image: linear-gradient(0, #015508, #77b711);
+    margin-left: 10%;
+    box-shadow: 5px 10px 10px #514d4d;
+}
+
+.label1 i{
+    margin-left: 5px;
+}
+
+#container{
+    position: static;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: small;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+
+.product {
+    position: static;
+    justify-content: space-evenly;
+    width: 250px;
+    height: 320px;
+    border-radius: 10px;
+    background-image: url(https://scr.vn/wp-content/uploads/2020/07/N%E1%BB%81n-h%E1%BB%93ng-xanh-%C4%91%E1%BA%B9p-cho-%C4%91i%E1%BB%87n-tho%E1%BA%A1i.jpg);
+    border: 1px solid #ddd; /* Viền sản phẩm */
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+
+.prd{
+    width: 180px;
+    justify-content: space-evenly;
+    margin: 1%;
+
+   
+}
+.hot_sale{
+    position: absolute;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin-top: -42px;
+    margin-left: -79px;
+    
+}
+.Gia_goc{
+    color: red;
+    text-align: center;
+}
+
+
+.prd1{
+    padding-top:10px ;
+    width: 200px;
+    height: 160px;
+    justify-content: space-evenly;
+    margin: 1%;
+    margin-left: -20px;
+
+}
+
+
+.button_Sp {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button_Sp .btn{
+    background-color: #00483d;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.button_Sp .btn:hover{
+    background-color: #77b711;
+
+}
+
+.Price{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Gia{
+    color: red;
+}
+
+.Sale{
+    color: black;
+}
+
+.title2{
+    margin-top: 50px;
+}
+
